@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/build/intermediates/res/merged/debug/drawable/bg_btn_white.xml",
+        "source": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/src/main/res/drawable/bg_btn_white.xml"
+    },
+    {
+        "merged": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/build/intermediates/res/merged/debug/drawable/bg_btn_black.xml",
+        "source": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/src/main/res/drawable/bg_btn_black.xml"
+    }
+]

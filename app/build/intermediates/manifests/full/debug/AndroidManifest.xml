@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.inmite.android.gridwichterle"
+    android:installLocation="auto"
+    android:versionCode="10002"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+
+    <!-- This permission is used for overlapping all application -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        name="eu.inmite.android.gridwichterle.App"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowClearUserData="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="eu.inmite.android.gridwichterle.activity.SettingsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Translucent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="eu.inmite.android.gridwichterle.services.GridOverlayService" />
+
+        <receiver android:name="eu.inmite.android.gridwichterle.core.NotificationReceiver" >
+            <intent-filter>
+                <action android:name="notification_cancelled" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

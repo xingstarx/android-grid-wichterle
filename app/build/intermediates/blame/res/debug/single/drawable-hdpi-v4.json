@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_close.png",
+        "source": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/src/main/res/drawable-hdpi/ic_close.png"
+    },
+    {
+        "merged": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_gridwichterle.png",
+        "source": "/Users/xiongxingxing/androidDemo/android-grid-wichterle/app/src/main/res/drawable-hdpi/ic_gridwichterle.png"
+    }
+]
