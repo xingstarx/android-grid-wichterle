@@ -45,3 +45,8 @@ app/build/intermediates/transforms/extractJars/
 app/build/intermediates/transforms/mergeJavaRes/debug/folders/
 app/build/intermediates/transforms/mergeJniLibs/
 app/build/tmp/
+/.idea/
+/.gradle/
+/android-grid-wichterle.iml
+/app/app.iml
+/app/build/
